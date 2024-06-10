@@ -10,6 +10,11 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: Text("Emon",style: TextStyle(color: Colors.white,fontSize: 20),),
+      ),
+    );
   }
 }
